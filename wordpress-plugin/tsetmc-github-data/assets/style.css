@@ -1,0 +1,13 @@
+
+.tgh-wrap{max-width:900px;margin:20px auto;font-family:inherit}
+.tgh-toolbar input{width:100%;padding:14px;box-sizing:border-box;border:1px solid #ddd;border-radius:10px;font-size:16px}
+#tgh-status{padding:14px 0;color:#555}
+.tgh-table{background:#fff;border:1px solid #ddd;border-radius:12px;overflow:hidden}
+.tgh-table table{width:100%;border-collapse:collapse}.tgh-table th,.tgh-table td{padding:16px;border-bottom:1px solid #eee;text-align:right}
+.tgh-symbol{background:none;border:0;color:#182966;font-weight:800;font-size:17px;cursor:pointer}
+.tgh-pages{display:flex;justify-content:center;gap:7px;margin:16px;flex-wrap:wrap}.tgh-pages button{padding:8px 12px;background:#fff;border:1px solid #ddd;border-radius:8px}.tgh-pages .active{background:#182966;color:#fff;border-color:#182966}
+.tgh-modal{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:999999;display:flex;align-items:center;justify-content:center;padding:15px}
+.tgh-card{position:relative;background:#fff;width:min(760px,100%);max-height:85vh;overflow:auto;padding:25px;border-radius:16px;color:#222}
+#tgh-close{position:absolute;left:10px;top:4px;border:0;background:none;font-size:34px;cursor:pointer}
+.tgh-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:18px 0}.tgh-box{padding:12px;background:#f4f6fa;border-radius:10px}.tgh-box b{display:block;font-size:12px;color:#666;margin-bottom:6px}
+.tgh-holder{padding:11px;border-bottom:1px solid #eee}.tgh-muted{color:#777}@media(max-width:600px){.tgh-grid{grid-template-columns:1fr}}
